@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.list-icon {
+    margin-left: 20px;
+    font-size: 28px;
+}
+
+.highlight {
+    background-color: #CCFF78;
+
+}
+
+.products-container.normal-view {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.products-container.grid-view {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1.5fr);
+
+}
+
+.search-box {
+    width: 70%;
+    height: 38px;
+    border-radius: 8px;
+}
+
+/* .products-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+ */
+.prodcts-card {
+    width: 100%;
+
+    box-sizing: content-box;
+    margin-bottom: 20px;
+    display: flex;
+    border: 1px solid #ddd;
+    margin: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .prodcts-card {
+        width: 80%;
+
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        margin: 10px;
+        margin-left: 3px;
+
+
+    }
+
+    .prod-img {
+        width: 100%;
+
+    }
+}
+
+.response-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.titleHeading {
+    margin-bottom: 10px;
+}
+
+
+
+.prod-img {
+    width: 100%;
+}
+
+.badge {
+    align-self: flex-end;
+}
+
+
+
+.badge-button {
+    background-color: #CCFF78;
+    width: 102px;
+    height: 30px;
+    border-radius: 10px 0px 0px 10px;
+
+
+}
+
+.ul-element {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
